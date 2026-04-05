@@ -19,7 +19,37 @@ This project is a real-time **uroflowmeter** designed to measure **liquid volume
 - Load Cell (3kg)  
 - HX711 Amplifier Module  
 - Connecting Wires  
-- Container setup  
+- Container setup
+
+---
+
+## 🔌 Pin Connections
+
+### 🔹 HX711 (Load Cell Amplifier)
+| HX711 Pin | ESP32 XIAO / Arduino |
+|----------|----------------------|
+| VCC | 5V |
+| GND | GND |
+| DT (DOUT) | D2 |
+| SCK | D3 |
+
+---
+
+### 🔹 Load Cell → HX711
+| Load Cell Wire | HX711 Pin |
+|---------------|----------|
+| Red (E+) | E+ |
+| Black (E−) | E− |
+| White (A−) | A− |
+| Green (A+) | A+ |
+
+---
+
+### 🔹 USB Communication
+| Function | Connection |
+|---------|-----------|
+| USB | Controller → PC |
+| Baud Rate | 115200 |
 
 ---
 
@@ -53,6 +83,8 @@ A **custom 3D model** was designed to support and mount all components, providin
 ---
 
 ## ⚙️ Calibration (Important Step) ⚠️
+### 🎥 Calibration Video
+[![Watch Calibration Video](https://img.youtube.com/vi/YCql1FWUUNg/0.jpg)](https://www.youtube.com/watch?v=YCql1FWUUNg)
 Before using the system, **you must calibrate the load cell**:
 
 1. Upload calibration code  
@@ -61,7 +93,7 @@ Before using the system, **you must calibrate the load cell**:
 4. Note calibration factor  
 5. Update it in main code  
 
-👉 Calibration is **mandatory for accurate results** , Code is given in above folder
+👉 Calibration is **mandatory for accurate results**
 
 ---
 
