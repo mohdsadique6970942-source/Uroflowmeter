@@ -65,9 +65,8 @@ A **custom 3D model** was designed to support and mount all components, providin
 ---
 
 ## 💻 Code Files
-
-### 🔹 Serial Monitor Code
-- `uroflowmeter_serial.ino`  
+### 🔹 Serial Monitor Code (Not work with GUI)
+- `Uroflowmeter_Code.ino`  
 - Runs on Arduino IDE  
 - Displays volume and flow rate in Serial Monitor  
 
@@ -85,6 +84,7 @@ A **custom 3D model** was designed to support and mount all components, providin
 ## ⚙️ Calibration (Important Step) ⚠️
 ### 🎥 Calibration Video
 [![Watch Calibration Video](https://img.youtube.com/vi/YCql1FWUUNg/0.jpg)](https://www.youtube.com/watch?v=YCql1FWUUNg)
+
 Before using the system, **you must calibrate the load cell**:
 
 1. Upload calibration code  
