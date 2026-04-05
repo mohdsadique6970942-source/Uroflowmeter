@@ -133,6 +133,6 @@ The load cell measures weight changes, which are converted into volume. Flow rat
 
 --- 
 
-##📄 License
+## 📄 License
 
 This project is open-source and intended for educational and research purposes.
