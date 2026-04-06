@@ -4,16 +4,6 @@ This project is a real-time **uroflowmeter** designed to measure **liquid volume
 
 ---
 
-## 🚀 Features
-- Real-time volume and flow rate measurement  
-- Load cell + HX711 based sensing  
-- High accuracy using multi-point calibration  
-- Serial monitor output (Arduino IDE)  
-- GUI-based visualization and data analysis  
-- Custom 3D printed enclosure for clean and professional setup  
-
----
-
 ## 🧰 Components Used
 - ESP32 XIAO R4M1 (or Arduino compatible board)  
 - Load Cell (3kg)  
