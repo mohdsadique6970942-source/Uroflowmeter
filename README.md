@@ -82,7 +82,7 @@ A **custom 3D model** was designed to support and mount all components, providin
 ---
 
 ## ⚙️ Calibration (Important Step) ⚠️
-First include a library in Arduino IDE available in Codes folder named "HX711_ADC-master"
+First include a library in Arduino IDE available in Codes folder named "HX711_ADC-master.zip"
 Then Upload the Calibration Code of load cell available in codes folder and find out your calibration factor then paste that calibration factor in codes Before use⚠️
 
 Before using the system, **you must calibrate the load cell**:
