@@ -1,6 +1,6 @@
 # 💧 Uroflowmeter (Volume & Flow Rate Measurement System)
 
-This project is a real-time **uroflowmeter** designed to measure **liquid volume (ml)** and **volumetric flow rate (ml/s)** using a load cell and HX711 amplifier with ESP32 XIAO. It ensures accurate measurement through calibration and supports both serial monitor output and GUI-based visualization.
+This project is a real-time **uroflowmeter** designed to measure **liquid volume (ml)** and **volumetric flow rate (ml/s)** using a load cell and HX711 amplifier with ESP32 XIAO. It ensures accurate measurement through calibration and supports both serial monitor output and GUI-based visualization and can get data in .csv format through GUI.
 
 ---
 
@@ -123,6 +123,7 @@ Uroflowmeter_GUI.py
 - System will display:
   Volume (ml)
   Flow Rate (ml/s)
+- After measuring press "Export CSV" to get data in .csv format
   
 ---
 
